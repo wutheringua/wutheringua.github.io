@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main-color:#FFF;
+    --name-text:#ccd6f6;
+    --text:#8892b0;
+    --monospace-text:#8dc7b3;
+}
+body{
+    background-color: #3C324D;
+}
+.history{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 2000;
+    color: var(--main-color);
+    padding-left: 10%;
+}
+.historydiscr{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+#character_img{
+    max-width: 20pc;
+    padding-left: 40%;
+}
+.main{
+    font-family:"Montserrat", sans-serif;
+    color: var(--main-color);
+    margin-left: 43%;
+}
+a{
+    text-decoration:none;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.story_btn{
+    position: relative;
+    width: 1.81rem;
+    min-width: 1.81rem;
+    height: 0.41rem;
+    background-color: #2a2c32;
+    border-radius: 0px 0 0.6rem 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 700;
+    border-left: 0.25rem solid #c4ac7d;
+    align-items: center;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    margin-top: 0.1rem;
+    cursor: pointer;
+    transition: all;
+    -moz-transition: all 0.5s linear;
+   -o-transition: all 0.5s linear;
+   -webkit-transition: all 0.5s linear;
+   margin-right: 1.3rem;
+}
+.story_btn:hover{
+    margin-top: 10rem;
+    background-color: #c4ac7d;
+    border-left: 0.25rem solid #c4ac7d;
+    transition: all 0.15s ease;
+    color:#2a2c32
+}
+.story_btn_div{
+    margin-left: 2rem;
+}
