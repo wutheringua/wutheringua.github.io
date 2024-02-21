@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main-color:#FFF;
+    --name-text:#ccd6f6;
+    --text:#8892b0;
+    --monospace-text:#8dc7b3;
+}
+.page_name{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-left: 43%;
+}
+body{
+    background-image: url("/wuthering waves/resonators/resonator_page_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    background-color: #1E1E1E;
+}
+.history{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 2000;
+    color: var(--main-color);
+    padding-left: 10%;
+}
+.historydiscr{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.main{
+    font-family:"Montserrat", sans-serif;
+    color: var(--main-color);
+    margin-left: 40%;
+}
+a{
+    text-decoration:none;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.story_btn{
+    position: relative;
+    width: 1.81rem;
+    min-width: 1.81rem;
+    height: 0.41rem;
+    background-color: #2a2c32;
+    border-radius: 0px 0 0.6rem 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 700;
+    border-left: 0.25rem solid #c4ac7d;
+    align-items: center;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    margin-top: 0.1rem;
+    cursor: pointer;
+    transition: all;
+    -moz-transition: all 0.5s linear;
+   -o-transition: all 0.5s linear;
+   -webkit-transition: all 0.5s linear;
+   margin-right: 1.3rem;
+}
+.story_btn:hover{
+    margin-top: 10rem;
+    background-color: #c4ac7d;
+    border-left: 0.25rem solid #c4ac7d;
+    transition: all 0.15s ease;
+    color:#2a2c32
+}
+.story_btn_div{
+    margin-left: 10%;
+}
+.character_img{
+    width: 80%;
+}
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
