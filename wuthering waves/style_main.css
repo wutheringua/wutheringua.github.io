@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main-color:#F59DBD;
+    --name-text: #FFF;
+    --text:#6E96BF;
+    --special-text:#c1d4e8;
+    --main: #1E1E1E;
+    --section_color: #c4ac7d ;
+}
+ /*main*/
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior:smooth;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color: var(--main);
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  background-image: url("/wuthering waves/background_main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-font-smoothing: antialiased;
+}
+div{
+  display: block;
+}
+/*navigation*/
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  top:100%;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(30 30 30 / 30%);
+}
+.nav-list{
+  display:block;
+  padding:2rem;
+  font-size:1.5rem;
+  color:var(--name-text);
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+.nav-list:hover {
+  color:var(--special-text);
+  font-size: 1.5rem;
+}
+.nav-list-span{
+  color:var(--special-text);
+}
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+/*welcome section*/
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+  }
+#hello-word > h1, .name{
+    font-size:5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: left;
+  }
+.name{
+  color: #6E96BF;
+  margin: 0px;
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 7rem;
+  font-weight: bold;
+}
+.discription{
+  color:#ffffff;
+  line-height: 0.9;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  opacity: 80%;
+}
+a{
+  text-decoration: none;
+  color: var(--name-text);
+  }
+#hello-word{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+#icons-contact{
+  display: flex;
+  width: 50%;
+  flex-direction : row;
+  color:var(--text);
+}
+.logo-contact-ion{
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.8em;
+  padding-top: 40%;
+  padding-right: 1rem;
+  transition: all;
+  -moz-transition: all 0.5s linear;
+ -o-transition: all 0.5s linear;
+ -webkit-transition: all 0.5s linear;
+}
+.logo-contact-ion:hover{
+  color:var(--name-text);
+  transition: all 0.5s ease;
+  translate: 0px -5px;
+}
+.logo-contact-ion:active{
+  color:var(--monospace-text);
+  transition:0.2s;
+  translate: 0px 5px;
+}
+/*about resonators*/
+#aboutresonarors-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 5rem;
+  width: 100%;
+  height: 100vh;
+}
+.resonator_img{
+    width: 35%;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    max-width: 60%;
+  }
+.section_name_text{
+  font-family: "Montserrat", sans-serif;
+  color: var(--section_color);
+  margin-left: 5rem;
+}
+.resonator_div{
+  width: auto;
+  margin-left: 5rem;
+}
+#aboutme-h2{
+  line-height: 130%;;
+}
+
+/*contact section*/
+#contact-link-div-h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  width: 80%;
+}
+.contact-link{
+  color: var(--section_color);
+  font-family: "Montserrat", sans-serif;
+}
+#contact-section-h2{
+  font-family: 'Montserrat',sans-serif;
+  color:var(--name-text);
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+#contact-h2{margin-top: 5rem;}
+/*responsitive*/
+@media screen and (max-width:767px) {
+  .nav-list{
+    font-size: 1.3rem;
+    padding: 1.5rem;
+  }
+  #hello-word> h1{
+    font-size:3.5rem;
+  }
+  h2{
+    font-size:1.5rem;
+  }
+  .contact-link > ion-icon{
+    font-size:1.8em;
+  }
+  body{
+    background-image: url("/wuthering waves/background_mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+@media screen and(max-width:1920px){
+  .nav-list{
+    font-size: 1.8rem;
+    padding: 1.7rem;
+  }
+  #hello-word> h1{
+    font-size:4rem;
+  }
+  .html-or-css-logo{
+    font-size:5rem;
+  }
+  h2{
+    font-size:13rem;
+  }
+  #mail_btn{
+    font-size:1.8rem;
+    padding:1.3em 3em;
+  }
+  .contact-link > ion-icon{
+    font-size:2em;
+  }
+  .name, .discription, .section_name_text{
+    font-size: 15rem;
+  }
+}
+/*icon*/
+#location-icon{
+  color:var(--name-text);
+}
