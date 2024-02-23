@@ -152,7 +152,8 @@ a{
     width: 35%;
     margin-right: 2.5rem;
     margin-top: 2.5rem;
-    max-width: 60%;
+    max-width: 600px;
+    min-width: 400px;
   }
 .section_name_text{
   font-family: "Montserrat", sans-serif;
@@ -208,6 +209,9 @@ a{
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-font-smoothing: antialiased;
+  }
+  #hello-word{
+    padding-left: 5%;
   }
 }
 @media screen and(max-width:1920px){
