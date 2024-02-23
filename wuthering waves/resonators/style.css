@@ -47,7 +47,7 @@ a{
     font-weight: bolder;
 }
 .story_btn{
-    position: relative;
+    display: inline;
     width: 1.81rem;
     min-width: 1.81rem;
     height: 0.41rem;
@@ -92,5 +92,9 @@ aside{
     background-image: url("/wuthering waves/resonators/resonator_page_background_mobile.jpg");
     background-repeat: repeat;
     background-size: 100%;
+    }
+    .story_btn{
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        margin-right: 1rem;
     }
 }
