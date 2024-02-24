@@ -78,14 +78,37 @@ a{
 .story_btn_div{
     margin-left: 10%;
 }
-.character_img{
-    width: 80%;
+.resonator_info{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 5%;
 }
-aside{
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
+.resonator_img{
+    width: 25%;
+    min-width: 180px;
+    max-width: 250px;
+}
+.resonator_detail .element, .weapon{
+    width: 6%;
+    margin-right: 3%;
+    margin-left: 25%;
+}
+.resonator_detail{
+    margin-right: 3%;
+}
+.about_text{
+    text-align: center;
+}
+.resonator_about, p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.element, .weapon{
+    width:30%;
+    min-width: 2.5rem;
+    max-width: 5rem;
 }
 @media screen and (max-width:767px) {
     body{
